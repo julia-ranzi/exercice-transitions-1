@@ -1,0 +1,51 @@
+#ex01 .box:hover {
+  background-color: #124559;
+}
+
+#ex02 .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#ex02 .box:hover {
+  background-color: #124559;
+}
+
+#ex03 .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+}
+
+#ex03 .box:hover {
+  background-color: #124559;
+}
+
+#ex04 .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#ex04 .box:hover {
+  background-color: #124559;
+  color: white;
+}
+
+#ex05 .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition: color 0.5s 0.2s;
+}
+
+#ex05 .box:hover {
+  background-color: #124559;
+  color: white;
+}
+
+#ex06 .wrapper .box {
+  transition-property: background-color;
+}
+
+#ex06 .wrapper .box:hover {
+  background-color: #124559;
+}
